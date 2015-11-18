@@ -1,0 +1,386 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poiret One', cursive;
+	background-color: white;
+}
+
+.arriba {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.menu{ 
+	background-color: white;
+	width: 80%;
+}
+
+.lista{
+	list-style: none;
+	padding: 0px;
+}
+
+.lista li{
+	display: inline-block;
+	padding: 2%;
+	width: 14%;
+	border-right-style: inset;
+}
+
+.lista li a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+
+.b img {
+	width: 50px;
+	height: 50px;
+}
+
+.b, .menu{
+	display: inline-block;
+}
+
+.b{
+	margin-right: 9%;
+}
+
+.divimagen{
+	margin-top: 2%;
+	background: url("/proyectoFinalphp/imagenes/s.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.medio{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.medio div img {
+	width: 50%;
+}
+
+.medio div div
+{
+	width: 30%;
+	height: 30%;
+	display: inline-block;
+}
+
+.medio div{
+	margin-left:4%;
+}
+
+.sec{
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	margin-bottom: 2%;
+
+}
+
+.abajo{
+	background: url("/proyectoFinalphp/imagenes/k.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.cont {
+	margin-top: 3%;
+	margin-right: 10%;
+	margin-left: 10%;
+	display: table;
+	margin-top: 2%;	
+}
+
+.columna{
+	display: table-cell;
+	padding: 2%;
+}
+
+.columna div h3, .columna div article{
+	color: white;
+	text-align: justify;
+}
+
+.abajo footer{
+	margin-right: 35%;
+	margin-left: 35%;
+	margin-top: 5%;
+	margin-bottom:5%;
+	color: white;
+}
+
+.columna div{
+	margin-bottom:10%; 
+}
+
+.pro input{
+	width: 45%;
+	background-color: #F78181;
+	color: white;
+	border-radius: 15%;
+	border: none;
+	margin-right: 25%;
+	margin-left: 25%;
+	padding: 4%;
+	margin-bottom: 2%;
+} 
+
+.pro{
+	border: solid;
+	border-color: #F78181;
+	padding: 5%;
+	border-radius: 12%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+
+.pro img{
+	margin-right: 25%;
+	margin-left: 25%;
+	border: solid;
+	border-color: #F78181;
+}
+
+.pro h3{
+	margin-left: 21%;
+	margin-right: 21%;
+}
+
+
+.formulario{
+	margin-right: 35%;
+	margin-left: 35%;
+	border: solid;
+	border-color: #F78181;
+	padding: 4%;
+	border-radius: 12%;
+}
+
+.formulario form label{
+	color: black;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 1%;
+}
+
+.text {
+	display: block;
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+.bot{
+	width: 45%;
+	background-color: #F78181;
+	color: white;
+	border-radius: 15%;
+	border: none;
+	margin-right: 25%;
+	margin-left: 25%;
+	padding: 4%;
+	margin-bottom: 2%;
+}
+
+.inicio{
+	float: left;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	padding-right: 5%;
+}
+
+.inicio ul{
+	list-style: none;
+}
+
+.inicio ul li{
+	height: 100%;
+	width: 100%;
+}
+
+.inicio ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.2em;
+}
+
+.secc{
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	margin-bottom: 2%;
+	width: 87%;
+}
+
+
+.formulario div img{
+	margin-left: 17%;
+	width: 62%;
+	height: 62%;
+	margin-bottom: 9%;
+}
+
+.formulario div section{
+
+	display: block;
+	width: 100%;
+	margin-bottom: 5%;
+	border: solid 1px  black;
+	border-radius: 15%;
+	color: black;
+	padding: 2%;
+	font-weight: bold;
+}
+
+.formulario div label{
+	color: black;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 4%;
+}
+
+.formulario div select{
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 15%;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+
+
+@media screen and (max-width:  767px) {
+	.menu {
+		margin-left: 13%;
+	}
+
+	.pro{
+		margin: 1%;
+	}
+
+	.abajo footer{
+		margin-right: 25%;
+		margin-left: 25%;
+	}
+	.cont
+	{
+		margin-right: 7%;
+		margin-left: 7%;
+	}
+
+	.columna
+	{
+		padding: 2%;
+
+	}
+
+	.b{
+		margin-left: 45%;
+	}
+
+	.formulario{
+		margin-right: 30%;
+		margin-left: 30%;
+		margin-top: 5%;
+	}
+	.menu li{
+		width: 15%;
+	}
+	.medio{
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	}
+
+@media screen and (max-width: 670px) {
+	.menu{
+		margin-left: 7%;
+	}
+	.lista li{
+		padding: 3%;
+	}
+
+	.formulario{
+		margin-right: 15%;
+		margin-left: 15%;
+		margin-top: 8%;
+	}
+	.menu li{
+		width: 25%;
+	}
+
+	.medio{
+		margin-right: 3%;
+		margin-left: 3%;
+		padding-left: 10%;
+	}
+	.pro{
+		margin: 1%;
+		padding: 1%;
+	}
+	.medio div div{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.menu li {
+		width: 100%;
+	}
+
+	.abajo footer
+	{
+	margin-right: 3%;
+	margin-left: 3%;
+	}
+
+	.columna
+	{
+		display: block;
+	}
+
+	.cont{
+		margin: 1%;
+	}
+
+	.formulario{
+		margin: 1%;
+		margin-top: 6%;
+	}
+
+	.medio{
+	margin-right: 1%;
+	margin-left: 1%;
+	padding: 0px;
+	}
+	.pro{
+		margin: 0px;
+		padding: 1%;
+	}
+
+	.medio div div{
+		display: block;
+		width: 90%;
+		margin-bottom: 2%;
+	}
+	.secc{
+		width: 50%;
+		margin-left: 2%;
+	}
+}
+@media screen and (min-width: 950px) {
+
+}
